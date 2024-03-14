@@ -603,7 +603,14 @@ color: #70737c;
   .banner-image__wrapper img {
     width: 100%;
     height: 100%;
+  } 
+  .menu-imges{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
   }
+  
 
   .products-row {
     flex-wrap: nowrap;
