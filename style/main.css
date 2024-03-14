@@ -532,6 +532,9 @@ color: #70737c;
   .header-social {
     display: none;
   }
+  .social{
+    display: none;
+  }
 
   .header-search {
     max-width: none;
@@ -593,6 +596,9 @@ color: #70737c;
     height: 200px;
     margin: 0 auto;
   }
+  .menu-imge{
+    display: none;
+  }
 
   .banner-image__wrapper img {
     width: 100%;
@@ -632,11 +638,19 @@ color: #70737c;
  width: 100%;
   }
   .menu-nav{
-    display: grid;
-    grid-template-columns: repeat(1,2fr);
+    display:block;
     flex-direction:row-reverse;
-    height: auto;
+    height: 200px;
 
+
+   
+
+  }
+  .menu-imges{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
   }
   
    
